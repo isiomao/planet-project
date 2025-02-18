@@ -1,0 +1,99 @@
+@media(max-width:450px ){
+
+    
+  header{
+       
+      
+        padding: 10px 20px;
+        
+    }
+    
+    header nav{
+        display: flex;
+        gap: 20px;
+    }
+    header nav a{
+        font-size: 11px;
+    }
+    
+    
+    
+    #home h1{
+        font-size: 35px;
+        
+    }
+    #about-us h2{
+        font-size: 35px;
+     
+    }
+    #about-us div{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 30px;
+        gap: 40px;
+    }
+    
+    #about-us img{
+        width: 300px;
+        
+    }
+    #about-us article{
+        width: 80%;
+     
+    }
+    
+    
+
+    #astronauts h2{
+        font-size: 30px;
+      
+    }
+    #astronauts div{
+        
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    
+    }
+    
+    #contact-us h2{
+        font-size: 30px;
+       
+    }
+    div{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    
+    }
+    div form{
+        width: 100%;
+        padding: 20px;
+    }
+    
+   
+    
+    #contact-us p{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 100px;
+        background-color: whitesmoke;
+        padding: 40px 20px ;
+    }
+    footer{
+        font-size: 10px;
+    }
+}
